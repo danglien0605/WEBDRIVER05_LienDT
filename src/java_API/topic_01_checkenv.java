@@ -19,7 +19,7 @@ public class topic_01_checkenv {
   @Test
   public void checkURL_and_title() {
 	 String title = webdriver.getTitle();
-	 AssertJUnit.assertEquals(title, "Guru99 Bank Homennnnnnn Page");
+	 AssertJUnit.assertEquals(title, "Guru99 Bank Home Page");
   }
   @BeforeClass
   public void beforeClass() {
